@@ -1,0 +1,63 @@
+/* Header */
+header {
+	/* border: 1px solid red; */
+	height: 6rem;
+}
+
+.navbar {
+	height: 100%;
+	width: 100%;
+	padding: 1rem 2rem;
+}
+
+.navbar ul {
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 1.4rem;
+}
+
+.navbar ul li {
+	margin-left: 1.5rem;
+}
+
+.navbar ul li a {
+	color: black;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.circle-shadow {
+	/* border: 1px solid blue; */
+	height: 4rem;
+	width: 4rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle-shadow:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon {
+	height: 1.8rem;
+}
+
+.user-icon span {
+	font-size: 1.8rem;
+	color: white;
+}
+
+.user-icon {
+	background-color: skyblue;
+	height: 3rem;
+	width: 3rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 3rem;
+}
