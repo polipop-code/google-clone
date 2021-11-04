@@ -24,5 +24,7 @@ li {
 }
 
 .icon {
-	height: 2rem;
+	height: 1.8rem;
+	margin-right: 1.5rem;
+	cursor: pointer;
 }
