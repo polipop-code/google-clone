@@ -8,6 +8,8 @@
 
 		<link rel="stylesheet" href="./css/globals.css" />
 		<link rel="stylesheet" href="./css/main.css" />
+
+		<script defer src="./index.js"></script>
 	</head>
 	<body>
 		<!-- Header -->
@@ -48,7 +50,7 @@
 				/>
 				<div class="search-bar">
 					<img class="icon" src="./src/magnifying-glass-solid.svg" alt="" />
-					<input class="search-input" type="text" />
+					<input id="search-input" class="search-input" type="text" />
 					<img class="icon" src="./src/keyboard-solid.svg" alt="" />
 					<img class="icon" src="./src/microphone-solid.svg" alt="" />
 				</div>
@@ -78,7 +80,7 @@
 					<li>
 						<a href="">Bussiness</a>
 					</li>
-					<li>
+					<li class="hidable">
 						<a href="">How Search Works</a>
 					</li>
 				</ul>

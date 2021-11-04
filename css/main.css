@@ -108,6 +108,10 @@ header {
 	border: none;
 }
 
+.search-bar input:focus {
+	outline: none;
+}
+
 .search-btns {
 	margin-top: 2rem;
 }
@@ -194,4 +198,85 @@ footer {
 
 .lower-right-footer li {
 	margin-left: 1.5rem;
+}
+
+/* Mobile and Tablet */
+@media only screen and (max-width: 650px) {
+	/* Navbar */
+	.navbar ul {
+		font-size: 1rem;
+	}
+
+	.menu-icon,
+	.user-icon span {
+		font-size: 1.4rem;
+	}
+
+	.circle-shadow {
+		height: 3rem;
+		width: 3rem;
+	}
+
+	/* Logo */
+	.logo-img {
+		width: 20rem;
+	}
+
+	/* Search Bar */
+	.search-bar {
+		width: 90%;
+		height: 3.5rem;
+	}
+
+	.search-bar i {
+		font-size: 1.4rem;
+	}
+
+	/* Buttons */
+	.search-btns button {
+		height: 3rem;
+		font-size: 1.2rem;
+	}
+
+	.google-search-btn {
+		width: 10rem;
+	}
+
+	.lucky-search-btn {
+		width: 12rem;
+	}
+
+	/* Language */
+	.language {
+		font-size: 1.2rem;
+	}
+
+	/* Footer */
+	footer {
+		height: 15rem;
+	}
+
+	.upper-footer {
+		height: 5rem;
+	}
+
+	.lower-footer {
+		height: 10rem;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.lower-left-footer {
+		width: 80%;
+		justify-content: space-around;
+	}
+
+	.lower-right-footer {
+		width: 80%;
+		justify-content: space-around;
+	}
+
+	.hidable {
+		display: none;
+	}
 }
