@@ -16,3 +16,7 @@ function search() {
 		input +
 		"&aqs=chrome..69i57j46i433i512j0i433i512j46i433i512j0i433i512j46i433i512l2j46i175i199i512j46i433i512l2.1744j0j7&sourceid=chrome&ie=UTF-8";
 }
+
+const searchBtn = document.querySelector("img.search");
+
+searchBtn.addEventListener("click", search);
